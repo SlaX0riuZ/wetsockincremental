@@ -1,3 +1,15 @@
+#topbar {
+    position: absolute; /* position isn't relative to anything; specific position */
+    top: 50px;
+    left: 50px;
+    width: calc(100% - 100px);
+    background-color:aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
 #main {
     border: 2px solid black;
     display: flex;
@@ -5,13 +17,6 @@
 
 #secondary {
     border: 2px solid black;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
 }
 
 #hidebutton {

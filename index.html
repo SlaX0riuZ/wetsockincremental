@@ -7,22 +7,28 @@
     <link rel= "stylesheet" href="style.css">
 </head>
 <body> <!-- actual page elements -->
-    <div id="main" class="center">
-        <div id="mainL" class="lefthalf">
-            <!-- left side || buy fresh socks from the store -->
-             <button onclick="incrementSocks()">Buy a fresh sock from the store.</button>
-             <p id="drysocknum"></p>
-        </div>
-        <div id="mainR" class="righthalf">
-            <!-- right side || douse socks in water -->
-            <button onclick="incrementPoints()">Douse a sock in water.</button>
-            <p id="wetsocknum"></p>
-        </div>
+    <div id="topbar">
+        <button id="clicks" class="topbarbutton">Clicks</button>
+        <button id="options" class="topbarbutton">Options</button>
     </div>
-    <div id="secondary" class="center">
-        <button id='hidebutton' onclick="hideDiv('main')">hide the number go up button</button> <br>
-        <button id='showbutton' onclick="showDiv('main')">show the number go up button</button> <br>
-        <button id='resetbutton' onclick="resetPoints()">reset point count</button>
+    <div id="game" style="margin-top: 150px">
+        <div id="main">
+            <div id="mainL" class="lefthalf">
+                <!-- left side || buy fresh socks from the store -->
+                <button onclick="incrementSocks()">Buy a fresh sock from the store.</button>
+                <p id="drysocknum"></p>
+            </div>
+            <div id="mainR" class="righthalf">
+                <!-- right side || douse socks in water -->
+                <button onclick="incrementPoints()">Douse a sock in water.</button>
+                <p id="wetsocknum"></p>
+            </div>
+        </div>
+        <div id="secondary">
+            <button id='hidebutton' onclick="hideDiv('main')">hide the number go up button</button> <br>
+            <button id='showbutton' onclick="showDiv('main')">show the number go up button</button> <br>
+            <button id='resetbutton' onclick="resetPoints()">reset point count</button>
+            </div>
     </div>
     <script src="script.js"></script> <!-- put this at the bottom right before /body -->
 </body>

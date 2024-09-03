@@ -2,7 +2,8 @@ ideation yippee
 
 wet sock incremental
 
-- click button to gain wet socks
+- click button to gain wet socks [DONE]
 
 << Upgrades Tab >>
-- double wet sock gain: 20 wet socks
+- buy pairs of socks (x2 sock gain); 20 wet socks
+
