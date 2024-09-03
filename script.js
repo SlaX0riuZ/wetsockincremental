@@ -12,7 +12,6 @@ function incrementPoints() {
 function incrementSocks() {
         socks += 1;
         document.getElementById("drysocknum").innerText = "You have " + socks + " socks.";
-    }
 }
 function hideDiv(name) {
     document.getElementById(name).style.display = "none"; // hide the display with name "name"
