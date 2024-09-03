@@ -1,0 +1,36 @@
+#main {
+    border: 2px solid black;
+    display: flex;
+}
+
+#secondary {
+    border: 2px solid black;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#hidebutton {
+    margin-bottom: 10px;
+}
+
+#showbutton {
+    margin-bottom: 10px;
+}
+
+.lefthalf {
+    width: 50%;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+.righthalf {
+    width: 50%;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
